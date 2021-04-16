@@ -1,9 +1,0 @@
-1 git add .
-2 git commit -m  "el mensaje del commit"
-3 git push
-
-nota: 
-comando git clone, se utiliza una unica vez por cada repositorio en una maquina, mas alla de que lo pueda utilizar varias veces. Clona githubto pc
-comando status, se ejecuta las veces que uno quiera, y en el momento que uno quiera, siempre se ejecutan en orden los comandos de arriba.
-
-
