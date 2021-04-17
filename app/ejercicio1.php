@@ -1,11 +1,11 @@
 <?php
-$edad=rand(1,70);
+$edad=rand(1,99);
 
 if ($edad>18)
 	{	
 		echo $edad." es mayor";
 	}
-	else
+else
 	{
 		echo $edad." es menor";
 	}
