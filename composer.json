@@ -1,0 +1,14 @@
+{
+    "name": "usuario/slim4",
+    "type": "project",
+    "authors": [
+        {
+            "name": "OctavioUTNFRA",
+            "email": "o.villegas@sistemas-utnfra.com.ar"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.3"
+    }
+}
