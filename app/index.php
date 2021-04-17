@@ -1,3 +1,3 @@
 <?php 
-	echo "HOLA HEROKU";
+echo "HOLA HEROKU";
 ?>
