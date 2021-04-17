@@ -1,4 +1,6 @@
 <?php
 $precio=rand(1,999);
-echo $precio." El precio + iva es = " ;
+$X=$precio*21/100;
+echo $precio;
+echo " El precio + iva es = ".$X;
 ?>
