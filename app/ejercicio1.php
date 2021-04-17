@@ -7,6 +7,6 @@ if ($edad>18)
 	}
 	else
 	{
-		echo $edad."es adolecente";
+		echo $edad." es menor";
 	}
 ?>
