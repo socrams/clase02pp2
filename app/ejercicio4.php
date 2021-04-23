@@ -21,5 +21,5 @@ else
 		$numMayor=$num3; 	//echo "	numero " . $num3 . " es mayor";
 	}
 }
-echo "el numero es ". $numMayor;
+echo "el numero es ".$numMayor;
 ?>
