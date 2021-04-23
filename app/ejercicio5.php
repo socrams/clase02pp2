@@ -1,6 +1,6 @@
 <?php
 $edad=rand(1,99);
-switch ($edad);
+switch ($edad)
 {
 	case 1:echo "Es menor ".$edad;break;
 	case 2:echo "Es menor ".$edad;break;
