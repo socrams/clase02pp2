@@ -18,5 +18,5 @@ else
 		$numMayor=$num3;
 	}
 }
-echo "el numero es ".$numMayor;
+echo "El numero mayor es ".$numMayor;
 ?>
