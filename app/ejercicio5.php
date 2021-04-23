@@ -1,6 +1,5 @@
 <?php
 $edad=rand(1,99);
-
 switch ($edad);
 {
 	case 1:
@@ -15,7 +14,7 @@ switch ($edad);
 	case 10:
 	case 11:
 	case 12:
-		echo "Es menor".$edad;
+		echo "Es menor ".$edad;
 		break;
 	case 13:
 	case 14:
@@ -23,10 +22,10 @@ switch ($edad);
 	case 16:
 	case 17:
 	case 18:
-		echo "Es adolecente".$edad;
+		echo "Es adolecente ".$edad;
 		break;
 	default:
-		echo "Es mayor de edad"
+		echo "Es mayor de edad "$edad;
 }
 
 ?>
