@@ -1,11 +1,17 @@
 <?php
-$edad=rand(1,99);
-switch ($edad)
+$viaje=rand(1,3);
+switch ($viaje)
 {
-	case "Bariloche":echo "Es menor ".$edad;break;
-	case "Usuahia":echo "Es menor ".$edad;break;
-	case "Cataratas":echo "Es menor ".$edad;break;
+	case 1:
+		echo "Bariloche Alto frio";
+		break;
 
+	case 2: :
+		echo "Usuahia Hace Frio y mucho";
+		break;
+	
+	case 3:
+		echo "Cataratas Depende la epoca del año";
+		break;
 }
-
 ?>
