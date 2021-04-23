@@ -14,12 +14,13 @@ switch ($edad)
 	case 10:echo "Es menor ".$edad;break;
 	case 11:echo "Es menor ".$edad;break;
 	case 12:echo "Es menor ".$edad;break;
-	case 13:echo "Es adolecente ".$edad;break;
-	case 14:echo "Es adolecente ".$edad;break;
-	case 15:echo "Es adolecente ".$edad;break;
-	case 16:echo "Es adolecente ".$edad;break;
-	case 17:echo "Es adolecente ".$edad;break;
-	case 18:echo "Es adolecente ".$edad;break;
+	case 13:echo 
+	case 14:echo 
+	case 15:echo 
+	case 16:echo 
+	case 17:echo 
+	case 18:
+		echo "Es adolecente ".$edad;break;
 	default:echo "Es mayor de edad ".$edad;
 }
 
