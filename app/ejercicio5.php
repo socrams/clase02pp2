@@ -25,7 +25,7 @@ switch ($edad);
 	case 18:
 		echo "Es adolecente".$edad;
 		break;
-	defalt:
+	default:
 		echo "Es mayor de edad"
 }
 
