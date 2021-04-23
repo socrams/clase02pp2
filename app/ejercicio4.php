@@ -5,7 +5,8 @@ $num3=rand(1,99);
 echo $num1" ";
 echo $num2" ";
 echo $num3" ";
-if($num1 > $num2 && $num1 > $num3)
+$numMayor="nada";
+if($num1 >$num2 && $num1 > $num3)
 {
 	$numMayor =$num1;	//		echo "	numero " . $num1 . "es mayor";
 } 
