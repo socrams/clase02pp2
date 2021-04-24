@@ -1,25 +1,29 @@
 <?php 
-$num1=5;
-$num2=7;
-$num3=3;
-$numMayor;
-if($num1>$num2 && $num1<$num3)
+$n1=5;
+$n2=7;
+$n3=3;
+$numMayor="";
+if($n1==$n2 || $n1==$n3 || $n2==$n3)
 {
-	$numMayor=$num1;
+	echo "no tiene numero del medio";
 }
 else
 {
-	if ($num2>$num3 && $num2<$num1)
+	if(($n1 > $n2 && $n1 < $n3) || ($n1 < $n2 && $n1 > $n3))
 	{
-		$numMayor=$num2;
+	$num=$n1;
 	}
 	else
 	{
-		if($num3>$num2 && $num3<$num1)
-		{
-			$numMayor=$num3;
+		if (($n2 > $n1 && $n2 < $n3) || ($n2 < $n1 &&  $n2 > $n3))
+		{	
+			$num=$n2;
 		}
+		else
+		{
+			$num=$n3;					
+		}	
 	}
-}
-echo "El numero del medio es ".$numMayor;
+}	
+echo "El numero del medio es ".$num;
 ?>
