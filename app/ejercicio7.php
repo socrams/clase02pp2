@@ -1,8 +1,8 @@
 <?php 
 $n1=5;
-$n2=7;
+$n2=5;
 $n3=3;
-$numMayor="";
+$num="";
 if($n1==$n2 || $n1==$n3 || $n2==$n3)
 {
 	echo "no tiene numero del medio";
@@ -24,6 +24,7 @@ else
 			$num=$n3;					
 		}	
 	}
+	echo "El numero del medio es ".$num;
 }	
-echo "El numero del medio es ".$num;
+
 ?>
